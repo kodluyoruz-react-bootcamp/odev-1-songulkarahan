@@ -1,0 +1,17 @@
+{
+  "name": "what",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/app.js",
+		"dev":   "nodemon ./src/app.js",
+		"build": "sucrase ./src -d ./dist --transforms imports"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sucrase": "^3.16.0"
+  }
+}
