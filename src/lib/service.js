@@ -15,4 +15,4 @@ async function getData(userId) {
   }
 }
 
-//default export et
+export { getData };
