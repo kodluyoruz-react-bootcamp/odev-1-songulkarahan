@@ -1,4 +1,5 @@
-// import { getData } from "./lib/service.js";
-const userData = require("./lib/service");
+//const userData = require("./lib/service");
+//userData.getData(3);
+import getData from "./lib/service.js";
 
-userData.getData(3);
+getData(2);
